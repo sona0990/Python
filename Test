@@ -74,3 +74,16 @@ banana
 melon
 melon
 melon
+
+=--------------------------------------------------------
+
+fruit =['apple','banana','melon']
+
+for i in range(len(fruit)):
+  print fruit[i]
+  
+j=0  
+while j < (len(fruit)):
+  print fruit[j]
+  j=j+1
+  
