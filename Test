@@ -31,6 +31,17 @@ print(total)
   
   
  --------------------------------------------
+ 
+ 
+ fruit =['apple','banana','melon']
+
+for i in range(len(fruit)):
+  print fruit[i]
+  apple
+banana
+melon
+  
+  ---------------------------------------
  fruit =['apple','banana','melon']
 print(range(len(fruit)))
 
