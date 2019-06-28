@@ -87,3 +87,25 @@ while j < (len(fruit)):
   print fruit[j]
   j=j+1
   
+  ------------------------------------------------------------
+  
+  class Robot:
+  def __init__(self,name,color,weight):
+    self.name=name
+    self.color=color
+    self.weight=weight
+   
+  
+  def introduce_self(self):
+    print(self.name)
+
+    
+#owner_xRa= input('enter the owner' )
+#owne=r_xRb= input('enter the owner' )
+
+r1=Robot('raghul','white',20)
+r2=Robot('Vine','black',40)
+r1.introduce_self()
+r2.introduce_self()
+
+  
