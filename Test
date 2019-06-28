@@ -109,3 +109,15 @@ r1.introduce_self()
 r2.introduce_self()
 
   
+-------------------------------------------------------
+
+
+vowels='aeiou'
+inp =input('enter the word')
+count=0
+for i in inp:
+  for x in vowels:
+    if i==x:
+      count=count+1
+
+print(count)    
