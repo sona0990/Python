@@ -157,5 +157,32 @@ for i in range(0,count):
    r.owned()
    r.robotKaOwned()
    i=i+1
+   
+   ============================================================================
+   
+   openfile="people.csv"
+name=[]
+marks=[]
+
+obj1=open(openfile)
+for line in obj1:
+
+  k = line.split()
+  name.append(k[0])
+  marks.append(k[2])
+  
+print name
+print marks
+
+
+for a in range(0,len(name)):
+  if int(marks[a])>50:
+    openfile1="results.csv"
+    obj2=open(openfile1,'w')
+    print name[a]
+    obj2.write(name[a] + "pass")
+    
+  else:
+    print name[a] + "fail"
   
 
