@@ -185,4 +185,30 @@ for a in range(0,len(name)):
   else:
     print name[a] + "fail"
   
+  ========================================================
+  
+  import string
+import random
+
+def randomnumber(k):
+ everything=''
+ letters=string.ascii_letters
+ 
+ numbers= string.digits
+ punctuation=string.punctuation
+
+ everything=letters+numbers+punctuation
+ 
+ 
+ pw= random.sample(everything,k)
+ for i in pw:
+   pw=''.join(pw)
+ return pw
+   
+ 
+
+k = int(input("enter the numbers") )
+
+print ("the random number is {}" .format(randomnumber(k)) )
+
 
