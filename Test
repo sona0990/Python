@@ -211,4 +211,18 @@ k = int(input("enter the numbers") )
 
 print ("the random number is {}" .format(randomnumber(k)) )
 
+=========================================================================
+
+
+
+openfile=open("data.txt",'w')
+fs=raw_input("enter the FS value")
+k=[]
+usage=[]
+for line in openfile:
+ y = (line.split())
+
+ if fs in (y[0]):
+   print(y[0])
+   print ("The filesystem use % is", (y[4]))
 
