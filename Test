@@ -226,3 +226,24 @@ for line in openfile:
    print(y[0])
    print ("The filesystem use % is", (y[4]))
 
+----------------------------------------------------------------
+
+
+def Sides_of_Triangle():
+  a=int(input("enter the first side"))
+  b=int(input("enter the second side"))
+  c=int(input("enter the third side"))
+  
+  if ((a + b <= c) or (a + c <= b) or (b + c <= a)):
+    print ("triangle can be formed")
+  else:
+    print("triangle can't be formed")
+    
+  
+  
+
+
+
+Sides_of_Triangle()
+
+------------------------------------------------------------------
