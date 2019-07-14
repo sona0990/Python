@@ -1,3 +1,45 @@
+
+def jewellery(y):
+  gems_list=['emerald','topaz','ruby','gold','silver']
+  price_list=[3500,4500,6700,8900,1000]
+  
+  total =0
+  i=0
+  
+  
+  for a in gems_list:
+    for b in y:
+      if b==a:
+        c=gems_list.index(a)
+        
+        total= total + price_list[c]
+        print total
+        
+       
+          
+  
+  return total  
+   
+  
+
+
+
+y=[]
+
+k=int(input("enter the number of gems"))
+
+for i in range (0,k):
+  y.append(input("enter the gems_list"))
+
+
+d=jewellery(y) 
+if d>5000:
+  d=d - d*0.5
+print ("The cost of the gem is", d )
+
+
+
+==================================================
 a = 3
 b = 5
 if a > b:
