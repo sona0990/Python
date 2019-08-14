@@ -301,4 +301,48 @@ for i in range(1,4):
     print(j, end=" ")
   print("\r")  
     
+--------------------------------------------------------------------
 
+shape=input("enter the shape")
+class Circle():
+  def __init__(self,a):
+    self.a=a
+  def area(self):  
+   
+    return(3.14*self.k*self.k)
+    
+class Rectangle():
+  def __init__(self,a,b):
+    self.a=a
+    self.b=b
+    
+  def area(self):  
+   
+    return(self.a*self.b)
+    
+class Square():
+  def __init__(self,a):
+    self.a=a
+  def area(self):  
+   
+    return(self.a*self.a)
+
+
+    
+    
+if shape == 'circle':
+  mycircle=Circle(5)
+  print("The area of circle is {}".format( mycircle.area()))
+  
+elif shape == 'rectangle':
+  myrectangle=Rectangle(4,5)
+  print("The area of Rectangle is {} ".format(myrectangle.area()))
+
+elif shape == 'square':
+  mysquare=Square(4)
+  print("The area of square is {} " .format(mysquare.area()))
+  
+else:
+  print('Please enter a valid shape')
+    
+ ----------------------------------------------------------------------------   
