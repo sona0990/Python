@@ -1,0 +1,10 @@
+#Prob 1 : Write a program that takes an integer, then a string, then a char from the user and prints them in the screen.
+
+
+a = int(input())
+b = input()
+c = input()
+
+print (a)
+print (b)
+print (c)
