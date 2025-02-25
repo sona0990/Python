@@ -1,0 +1,24 @@
+#Write a program using switch case which takes a value and prints the respective Size.
+#If size is 29 then its small
+
+#If size is 30 then its Medium
+
+#If size is 38 then its Large
+
+#If size is 42 then its XLarge
+
+#If size is not any of the above then Invalid.
+
+
+def size(a):
+    values = {
+        29 : "small",
+        30 : "Medium",
+        38 : "Large",
+        42 : "XLarge"
+        }
+    return (values.get(size,'Invalid') )
+
+a = input ("enter size")
+print(size(a))
+    
