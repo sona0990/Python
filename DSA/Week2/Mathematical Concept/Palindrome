@@ -1,0 +1,11 @@
+n=45544
+sum = 0
+df = n
+while (n > 0):
+    ld = n % 10
+    sum =  ( sum * 10 ) + ld
+    n=n//10
+if df==sum:
+    print("pallindrome")
+else:
+    print("Not a pallindrome")
