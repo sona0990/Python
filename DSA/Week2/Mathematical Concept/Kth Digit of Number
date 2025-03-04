@@ -1,0 +1,16 @@
+A=5
+B=2
+product=1
+K=2
+count=0
+
+
+P = A**B
+while (P>0):
+    
+    ld = P%10
+    count+=1
+    if (count == K):
+        print(P)
+    P=P//10    
+    
