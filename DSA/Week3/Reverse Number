@@ -1,1 +1,8 @@
-
+n=325345
+revnum = 0
+while n > 0:
+    ld = n%10
+    print(ld)
+    revnum = revnum*10 +ld
+    n=n//10
+print(revnum)    
